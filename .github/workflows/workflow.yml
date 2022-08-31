@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-          with:
+        with:
             files: ./runner/coverage1.xml
       - name: Install dependencies
         run: |
